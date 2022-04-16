@@ -1,0 +1,53 @@
+* {
+    font-weight: 300;
+}
+
+.menu {
+    display: fixed;
+    position: absolute; right: 30px; bottom: 30px;padding: 20px;
+    background-color: white;
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: snow;
+    outline: none;
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px salmon;
+}
+
+input {
+    background-color: snow;
+    outline: 0;
+    border: 1px solid silver;
+    width: 200px;
+    height: 29px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px salmon;
+}
+body {
+    background-color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 1px;
+    color: whitesmoke;
+    text-shadow: 0 0 1em salmon, 0 0 3em snow;
+}
+
+.diedEle {
+    display: none;
+}
